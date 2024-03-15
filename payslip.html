@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+     <input type="text" placeholder="basicpay" id="basicpay" onkeyup="payslip()"> <br>
+     <input type="text" placeholder="hra" id="hra"> <br>
+     <input type="text" placeholder="da" id="da"> <br>
+     <input type="text" placeholder="travel" id="travel"> <br>
+     <input type="text" placeholder="pf" id="pf"> <br>
+
+     <input type="text" id="gross" placeholder="GROSS   "/>
+
+     <input type="text" id="netsal" placeholder="NETSAL"/>
+  
+     <input type="button" value="SUBMIT" id="submit">
+
+
+     <div id="divid">
+        <table border="1px">
+            <tr>
+                <th id="bp">basic pay</th>
+                <th id="hra">HRA</th>
+                <th id="da">DA</th>
+                <th id="travel">TRAVEL</th>
+                <th id="pf"></th>
+            </tr>
+            <tbody id="payslipbody"></tbody>
+          
+        </table>
+     </div>
+
+    <script src="Payslip.js"></script>
+</body>
+</html>
